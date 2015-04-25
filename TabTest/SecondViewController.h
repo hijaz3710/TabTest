@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstViewController.h"
+#import "ThirdViewController.h"
+@interface SecondViewController : UIViewController{
+    FirstViewController *FRC;
+    ThirdViewController *TVC;
+}
 
-@interface SecondViewController : UIViewController
-
+- (IBAction)open:(id)sender;
 
 @end
 

@@ -15,6 +15,8 @@
 		FE35AD671AE4140000590522 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE35AD661AE4140000590522 /* Images.xcassets */; };
 		FE35AD6A1AE4140000590522 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE35AD681AE4140000590522 /* LaunchScreen.xib */; };
 		FE35AD761AE4140000590522 /* TabTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE35AD751AE4140000590522 /* TabTestTests.m */; };
+		FE35AD821AE41AC500590522 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE35AD801AE41AC500590522 /* ThirdViewController.m */; };
+		FE35AD831AE41AC500590522 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE35AD811AE41AC500590522 /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		FE35AD6F1AE4140000590522 /* TabTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE35AD741AE4140000590522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE35AD751AE4140000590522 /* TabTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTestTests.m; sourceTree = "<group>"; };
+		FE35AD7F1AE41AC500590522 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FE35AD801AE41AC500590522 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FE35AD811AE41AC500590522 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 				FE35AD661AE4140000590522 /* Images.xcassets */,
 				FE35AD681AE4140000590522 /* LaunchScreen.xib */,
 				FE35AD561AE4140000590522 /* Supporting Files */,
+				FE35AD7F1AE41AC500590522 /* ThirdViewController.h */,
+				FE35AD801AE41AC500590522 /* ThirdViewController.m */,
+				FE35AD811AE41AC500590522 /* ThirdViewController.xib */,
 			);
 			path = TabTest;
 			sourceTree = "<group>";
@@ -206,6 +214,7 @@
 			files = (
 				FE35AD651AE4140000590522 /* Main.storyboard in Resources */,
 				FE35AD6A1AE4140000590522 /* LaunchScreen.xib in Resources */,
+				FE35AD831AE41AC500590522 /* ThirdViewController.xib in Resources */,
 				FE35AD671AE4140000590522 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE35AD621AE4140000590522 /* SecondViewController.m in Sources */,
+				FE35AD821AE41AC500590522 /* ThirdViewController.m in Sources */,
 				FE35AD5C1AE4140000590522 /* AppDelegate.m in Sources */,
 				FE35AD5F1AE4140000590522 /* FirstViewController.m in Sources */,
 				FE35AD591AE4140000590522 /* main.m in Sources */,
